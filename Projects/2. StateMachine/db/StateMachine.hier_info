@@ -1,0 +1,28 @@
+|StateMachine
+clk => led[1]~reg0.CLK
+clk => led[2]~reg0.CLK
+clk => led[3]~reg0.CLK
+clk => led[4]~reg0.CLK
+clk => State~5.DATAIN
+sw[1] => State.OUTPUTSELECT
+sw[1] => State.OUTPUTSELECT
+sw[1] => State.OUTPUTSELECT
+sw[1] => State.OUTPUTSELECT
+sw[2] => State.OUTPUTSELECT
+sw[2] => State.OUTPUTSELECT
+sw[2] => State.OUTPUTSELECT
+sw[2] => State.OUTPUTSELECT
+sw[3] => State.OUTPUTSELECT
+sw[3] => State.OUTPUTSELECT
+sw[3] => State.OUTPUTSELECT
+sw[3] => State.OUTPUTSELECT
+sw[4] => State.OUTPUTSELECT
+sw[4] => State.OUTPUTSELECT
+sw[4] => State.OUTPUTSELECT
+sw[4] => State.OUTPUTSELECT
+led[1] <= led[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= led[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= led[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= led[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
