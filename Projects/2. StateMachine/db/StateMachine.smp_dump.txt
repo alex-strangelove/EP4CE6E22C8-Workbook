@@ -1,0 +1,7 @@
+
+State Machine - |StateMachine|State
+Name State.STATE4 State.STATE3 State.STATE2 State.STATE1 
+State.STATE1 0 0 0 0 
+State.STATE2 0 0 1 1 
+State.STATE3 0 1 0 1 
+State.STATE4 1 0 0 1 
